@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta charset="description" content="Sneha's Frontend Developer Portfolio">
+    <meta name="keywords" conetnt="HTML, CSS, Resume, Portfolio, Sneha">
+    <meta name="author" content="Sneha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightpink;
+        padding: 20px;
+      }
+      h1{
+        text-align: center;
+        color: rgb(204, 89, 127);
+      }
+      form{
+        background-color: rgb(236, 117, 157);
+        padding: 20px;
+        border-radius: 8px;
+        width: 340px;
+        margin: auto;
+        box-shadow: 0 0 20px rgb(185, 64, 84);
+      }
+      label{
+        color: rgb(159, 51, 87);
+        display: flex;
+        margin-right: 10px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea{
+        width: 96%;
+        padding: 3px;
+        margin-top: 1px;
+        border: 1px solid rgb(179, 62, 82);
+        border-radius: 6px;
+      }
+      input[type="submit"]{
+        margin-top: 15px;
+        padding: 6px;
+        background-color: pink;
+        color: palevioletred;
+        border: none;
+        border-radius: 4px;
+        cursor:pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: rgb(245, 168, 181);
+      }
+      fieldset{
+        border:2px double pink;
+        padding: 8px;
+      }
+      legend{
+        color: pink;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+      }
+      /* div{
+        text-align: center;
+      } */
+      /* img{
+        padding:4px;
+        box-shadow:0 0 30px pink;
+        border-radius: 120px;
+      }
+      audio{
+        padding: 0px;
+        box-shadow: 0 0 20px black;
+        border-radius: 30px;
+      }
+      video{
+        padding: 1px;
+        box-shadow: 0 0 10px lightskyblue;
+        border-radius: 20px;
+      } */
+    </style>
+  </head>
+  <body>
+      <h1>Contact Me</h1>
+
+      <form action="Cook.html" method="get">
+        <fieldset>
+            <legend>Send a Message</legend>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+            <input type="submit" value="Send">
+            </fieldset>
+      </form>
+      <!-- <div>
+            <br><br><br>
+            <img src="/PRACTICE/Images/kitten.jpeg" height="200px" width="200px">
+            <br><br>
+            <audio controls>
+              <source src="/PRACTICE/Images/embrace-364091.mp3" type="audio/mpeg">
+              your browser does not support audio.
+            </audio>
+            <br><br>
+            <video width="320" height="240" controls>
+              <source src="/PRACTICE/Images/video.mp4" type="video/mp4">
+              Your browser does not support video.
+            </video>
+      </div> -->
+  </body>
+</html>
